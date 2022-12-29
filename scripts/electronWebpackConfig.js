@@ -61,15 +61,6 @@ const baseConfig = {
     extensions: ['.js', '.jsx', '.json'],
     modules: [path.join(__dirname, '..', 'build'), 'node_modules']
   },
-
-  plugins: [
-    new webpack.EnvironmentPlugin({
-      NODE_ENV: process.env.NODE_ENV,
-      REACT_APP_RELEASE_TYPE: process.env.REACT_APP_RELEASE_TYPE,
-      SENTRY_DSN: process.env.SENTRY_DSN
-    }),
-    new webpack.NamedModulesPlugin()
-  ]
 };
 
 module.exports = merge(baseConfig, {

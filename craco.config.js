@@ -28,9 +28,11 @@ module.exports = () => {
         '@babel/react'
       ],
       plugins: [
-        '@babel/plugin-proposal-class-properties',
-        '@babel/plugin-proposal-export-default-from',
-        '@babel/plugin-transform-runtime',
+        ['@babel/plugin-proposal-class-properties',{loose:false}],
+        ['@babel/plugin-proposal-export-default-from',{loose:false}],
+        ['@babel/plugin-transform-runtime',{loose:false}],
+        ['@babel/plugin-proposal-private-methods',{loose:false}],
+        ['@babel/plugin-proposal-private-property-in-object',{loose:false}],
         '@babel/plugin-syntax-dynamic-import',
         '@loadable/babel-plugin',
         'babel-plugin-macros',
@@ -38,7 +40,7 @@ module.exports = () => {
           'babel-plugin-styled-components',
           {
             ssr: true,
-            pure: true
+            pure: true,
           }
         ]
       ]

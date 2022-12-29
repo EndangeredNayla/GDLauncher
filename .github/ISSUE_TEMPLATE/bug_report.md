@@ -1,7 +1,6 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-
 ---
 
 - [ ] I searched the issue tracker for other issues covering my case
@@ -12,6 +11,7 @@ _A clear and concise description of what the bug is._
 
 **To Reproduce**
 Steps to reproduce the behavior:
+
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
@@ -27,6 +27,7 @@ _Some ideas of how you would solve this issue, if possible_
 _If applicable, add screenshots to help explain your problem._
 
 **Operating System:**
+
 - OS: [e.g. Windows 10]
 - Launcher Version: [e.g. v1.1.10]
 - Java Version: [e.g. 8/16]

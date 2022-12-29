@@ -31,11 +31,10 @@ jobs:
         with:
           node-version: '16.13.1'
 
-
       - name: Install Nightly
         run: |
           rustup toolchain install nightly
-          
+
       - name: Install rust (Windows)
         if: matrix.os == 'windows-latest'
         run: |
@@ -72,7 +71,7 @@ jobs:
           SENTRY_DSN: "${{ github.ref == 'refs/heads/releases' && secrets.SENTRY_DSN || '' }}"
           SOURCE_MAPS_UPLOAD: "${{ github.ref == 'refs/heads/releases' && secrets.SENTRY_UPLOAD_SOURCE_MAPS_URL || '' }}"
           SENTRY_AUTH: "${{ github.ref == 'refs/heads/releases' && secrets.SENTRY_AUTH || '' }}"
-          REACT_CF_API_KEY: "${{ secrets.CF_API_KEY }}"
+          REACT_CF_API_KEY: '${{ secrets.CF_API_KEY }}'
         run: |
           npm run release
       - name: npm run release for mac and linux
@@ -88,7 +87,7 @@ jobs:
           SENTRY_DSN: "${{ github.ref == 'refs/heads/releases' && secrets.SENTRY_DSN || '' }}"
           SOURCE_MAPS_UPLOAD: "${{ github.ref == 'refs/heads/releases' && secrets.SENTRY_UPLOAD_SOURCE_MAPS_URL || '' }}"
           SENTRY_AUTH: "${{ github.ref == 'refs/heads/releases' && secrets.SENTRY_AUTH || '' }}"
-          REACT_CF_API_KEY: "${{ secrets.CF_API_KEY }}"
+          REACT_CF_API_KEY: '${{ secrets.CF_API_KEY }}'
         run: |
           npm run release
       - name: upload release to gh releases

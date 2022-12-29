@@ -1,44 +1,16 @@
 # GDLauncher
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
-[![GitHub issues](https://img.shields.io/github/issues-raw/gorilla-devs/GDLauncher.svg)](https://github.com/gorilla-devs/GDLauncher/issues) 
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/gorilla-devs/GDLauncher.svg)](https://github.com/gorilla-devs/GDLauncher/pulls) 
-![Discord](https://img.shields.io/discord/398091532881756161.svg)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gorilla-devs/GDLauncher.svg) 
-![](https://img.shields.io/github/release/gorilla-devs/GDLauncher.svg?style=flat)
-![Github All Releases](https://img.shields.io/github/downloads/gorilla-devs/GDLauncher/total.svg)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/GDClassic/GDLauncher-Classic/graphs/commit-activity) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com) 
+[![Open Isues](https://img.shields.io/github/issues-raw/gorilla-devs/GDLauncher.svg?style=for-the-badge)](https://github.com/gorilla-devs/GDLauncher/issues) 
+[![Open PRs](https://img.shields.io/github/issues-pr/GDClassic/GDLauncher-Classic.svg)](https://github.com/gorilla-devs/GDLauncher/pulls) 
+[![Discord](https://img.shields.io/discord/1052371788237127690?color=aqua&label=Discord&logo=Discord&logoColor=aqua&style=for-the-badge)](https://discord.gg/ReAem9z9Cr)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/GDClassic/GDLauncher-Classic.svg) 
+![Releases](https://img.shields.io/github/release/GDClassic/GDLauncher-Classic.svg?style=for-the-badge)
+![Github All Releases](https://img.shields.io/github/downloads/GDClassic/GDLauncher-Classic/total.svg?style=for-the-badge)
 
-## 🦺 Support this project
-
-<a href='https://ko-fi.com/gdlauncher' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 ## 🎉 Join our community
+<a href='https://discord.gg/ReAem9z9Cr' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.gdlauncher.com/assets/socials/Discord-Logo+Wordmark-Color.png' border='0' alt='GDLauncher Discord Server' /></a>
 
-<a href='https://discord.gdlauncher.com' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.gdlauncher.com/assets/socials/Discord-Logo+Wordmark-Color.png' border='0' alt='GDLauncher Discord Server' /></a>
-<details>
- <summary><strong>Table of Contents</strong> (click to expand)
-</summary>
-
-- [GDLauncher](#gdlauncher)
-  - [🦺 Support this project](#-support-this-project)
-  - [🎉 Join our community](#-join-our-community)
-  - [🎮 What is GDLauncher](#-what-is-gdlauncher)
-  - [⚡️ Comparison with Twitch Launcher](#️-comparison-with-twitch-launcher)
-  - [🚀 Getting Started](#-getting-started)
-  - [🎮 Download](#-download)
-  - [🎨 Features](#-features)
-      - [Our features:](#our-features)
-      - [You can also:](#you-can-also)
-      - [Some of the features we are still working on are:](#some-of-the-features-we-are-still-working-on-are)
-  - [💾 Compilation](#-compilation)
-    - [⚙️ Requirements](#️-requirements)
-    - [▶️ Steps](#️-steps)
-    - [🚚 Packaging](#-packaging)
-  - [🚀 Technologies](#-technologies)
-  - [🎁 Contributing](#-contributing)
-  - [❤️ Author](#️-author)
-  - [📜 History](#-history)
-  - [🎓 License](#-license)
-  </details>
 
 <p align="center">
     <img width="800" height="auto" src="https://gdevs.io/showcase.jpg" alt="GDLauncher" />
@@ -46,36 +18,32 @@
 
 ## 🎮 What is GDLauncher
 
-GDLauncher is a custom open-source Minecraft launcher written from the ground up in electron/react. Its main goal is to make it easy and enjoyable to manage different Minecraft versions and install `forge/fabric`, bringing the playing and modding experience to the next level!
+GDLauncher Classic is a fork of the classic version of GDLauncher (before it went closed source). If you aren't aware, GDLauncher is a custom open-source Minecraft launcher written from the ground up in electron/react. Its main goal is to make it easy and enjoyable to manage different Minecraft versions and install `forge/fabric`, bringing the playing and modding experience to the next level!
 
-## ⚡️ Comparison with Twitch Launcher
+## ⚡️ Comparison with CurseForge
 
-This is an example of the time that GDLauncher takes to install a modpack in comparison to Twitch. Both tests are running at the same time over a 1Gbps network to ensure that the network doesn't impact the comparison.
+This is an example of the time that GDLauncher Classic takes to install a modpack in comparison to CurseForge. Both tests are running at the same time over a 1Gbps network to ensure that the network doesn't impact the comparison.
 
 - GDLauncher: `52s`
 - Twitch Launcher: `145s`
 
-<p align="center">
-    <img width="800" height="auto" src="https://gdevs.io/comparison.gif" alt="GDLauncher" />
-</p>
-
 ## 🚀 Getting Started
 
-Below you will find everything you need to know about the launcher. If you want to download the latest stable release you can do it from our official website ([gdevs.io](https://gdevs.io)). If you want to test the possibly unstable features, you can clone the repo and compile it yourself.
+Below you will find everything you need to know about the launcher. If you want to download the latest stable release you can do it from our official website https://naylahanegan.com/gdclassic. If you want to test the possibly unstable features, you can clone the repo and compile it yourself.
 
 ## 🎮 Download
 
-To download the latest version, you can either click [here](https://github.com/gorilla-devs/GDLauncher/releases) and select the appropriate version for your operating system or visit our [website](https://gdevs.io).
+To download the latest version, you can either click [here](https://github.com/GDClassic/GDLauncher-Classic/releases) and select the appropriate version for your operating system or visit our [website](https://gnaylahanegan.com/gdclassic).
 
 ## 🎨 Features
 
 #### Our features:
 
-- Java downloader. You don't need to have java installed, a suitable version will be downloaded automatically.
-- It's as easy as pie to install the `vanilla` game, `forge`, `fabric`, and all `curseforge modpacks`. No further action from the user is required.
-- Install `mods` for both fabric and forge directly from our UI
+- Java downloader. You don't need to have Java installed, a suitable version will be downloaded automatically.
+- It's as easy as pie to install the `Vanilla` Minecraft game, aswell as `Forge`, `Fabric`, and all `CurseForge modpacks`. No further action from the user is required.
+- Install `Mods` for both fabric and forge directly from our UI
 - Built-in auto-updater. The launcher will always keep itself updated to the latest release.
-- Easily manage multiple `accounts` and switch between them.
+- Easily manage multiple `Accounts` and switch between them.
 - Still playing on your grandma pc from the 80s? Don't worry, we got you covered with our `Potato PC Mode`!
 
 #### You can also:
@@ -88,7 +56,8 @@ To download the latest version, you can either click [here](https://github.com/g
 
 - Drag and drop instances wherever you like them, just like in your desktop
 - Export instances to other launchers
-- Liteloader support
+- Liteloader Support
+- Modrinth Support
 - Optifine easy-installation support
 - Manage your Minecraft skin directly from the launcher
 - A lot more...
@@ -101,10 +70,12 @@ These are the steps to compile it yourself.
 
 You need the following software installed:
 
-- [NodeJS](https://nodejs.org/en/download/) (16.13.1 x64)
-- [Rust Nightly](https://www.rust-lang.org/)
-- [Python2](https://www.python.org/)(Mac and linux)
-- C++ compiler (g++ or windows build tools)
+- [NodeJS](https://nodejs.org/download/release/v16.13.1/) (16.13.1)
+- [Rust Nightly](https://www.rust-lang.org/) (1.65.0)
+- [Python 2](https://www.python.org/) (2.7.18) [Mac and Linux ONLY]
+- [Yarn](https://yarnpkg.com/) (3.3.0)
+- [G++](https://gcc.gnu.org/) (12.2) [Mac and Linux ONLY]
+- [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/?q=build+tools) (2022) [Windows ONLY]
 
 ### ▶️ Steps
 
@@ -112,19 +83,19 @@ Install the dependencies and devDependencies.
 
 ```sh
 $ cd GDLauncher
-$ npm i
+$ yarn install
 ```
 
 Start the development environment
 
 ```sh
-$ npm run dev
+$ yarn dev
 ```
 
 For production environment...
 
 ```sh
-$ npm run build && npm run start-prod
+$ yarn run build && yarn run start-prod
 ```
 
 ### 🚚 Packaging
@@ -149,7 +120,7 @@ $ npm run release
 - [Ant Design](https://ant.design/)
 - [Styled Components](https://styled-components.com/)
 - [Rust](https://www.rust-lang.org/)
-
+- [Yarn](https://yarnpkg.com)
 ## 🎁 Contributing
 
 You can find a list of unassigned tasks [here](https://github.com/gorilla-devs/GDLauncher/projects). Feel free to ask anything on our discord if you need help or want other tasks.
@@ -163,6 +134,7 @@ You can find a list of unassigned tasks [here](https://github.com/gorilla-devs/G
 ## ❤️ Author
 
 - **Davide Ceschia** - _Main Developer_ - [GorillaDevs](https://github.com/gorilla-devs)
+- **Nayla Hanegan** - _Forker_ - [EndangeredNayla](https://github.com/EndangeredNayla)
 
 See also the list of [contributors](https://github.com/gorilla-devs/GDLauncher/contributors) who participated in this project.
 

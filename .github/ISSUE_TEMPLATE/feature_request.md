@@ -1,7 +1,6 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-
 ---
 
 - [ ] I searched the issue tracker for other issues covering my case.
